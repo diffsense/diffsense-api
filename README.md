@@ -1,6 +1,6 @@
 # DiffSense API
 
-> **AI-powered git diff analysis** â€” Turn any git diff into a conventional commit message, security review, or changelog entry in seconds.
+> **AI-powered git diff analysis** - Turn any git diff into a conventional commit message, security review, or changelog entry in seconds.
 
 [![RapidAPI](https://img.shields.io/badge/RapidAPI-DiffSense-blue?style=flat-square)](https://rapidapi.com/terrycrews99/api/diffsense)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
@@ -9,7 +9,7 @@
 
 ## What is DiffSense?
 
-DiffSense is a REST API that reads your `git diff` output and returns structured, actionable developer intelligence â€” powered by AI.
+DiffSense is a REST API that reads your `git diff` output and returns structured, actionable developer intelligence -powered by AI.
 
 Stop writing commit messages manually. Stop missing security issues in code review. Stop spending time on changelog entries.
 
@@ -92,7 +92,7 @@ curl -X POST https://diffsense-api.p.rapidapi.com/commit-message \
   "security_issues": [
     {
       "severity": "CRITICAL",
-      "description": "SQL injection vulnerability â€” user input is directly interpolated into the query string.",
+      "description": "SQL injection vulnerability -user input is directly interpolated into the query string.",
       "line_hint": "query = f\"SELECT * FROM users WHERE id = {user_id}\""
     }
   ],
@@ -129,11 +129,11 @@ curl -X POST https://diffsense-api.p.rapidapi.com/commit-message \
 
 ## Use Cases
 
-- **Pre-commit hooks** â€” Auto-generate commit messages before every commit
-- **PR bots** â€” Post security reviews as GitHub PR comments automatically
-- **GitHub Actions** â€” Integrate into CI/CD to catch issues before merge
-- **IDE extensions** â€” Surface commit suggestions directly in your editor
-- **Release automation** â€” Auto-generate CHANGELOG.md on every release
+- **Pre-commit hooks** -Auto-generate commit messages before every commit
+- **PR bots** -Post security reviews as GitHub PR comments automatically
+- **GitHub Actions** -Integrate into CI/CD to catch issues before merge
+- **IDE extensions** -Surface commit suggestions directly in your editor
+- **Release automation** -Auto-generate CHANGELOG.md on every release
 
 ---
 
@@ -226,7 +226,7 @@ const response = await fetch("https://diffsense-api.p.rapidapi.com/commit-messag
 
 const { commit_message } = await response.json();
 console.log(commit_message);
-// â†’ "feat(auth): add null check for missing user on login"
+// → "feat(auth): add null check for missing user on login"
 ```
 
 ---
