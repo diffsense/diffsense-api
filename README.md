@@ -2,7 +2,7 @@
 
 > **AI-powered git diff analysis** â€” Turn any git diff into a conventional commit message, security review, or changelog entry in seconds.
 
-[![RapidAPI](https://img.shields.io/badge/RapidAPI-DiffSense-blue?style=flat-square)](https://rapidapi.com/diffsense/api/diffsense-api)
+[![RapidAPI](https://img.shields.io/badge/RapidAPI-DiffSense-blue?style=flat-square)](https://rapidapi.com/terrycrews99/api/diffsense)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
 
 ---
@@ -244,7 +244,7 @@ console.log(commit_message);
 
 ## Pricing
 
-Available on [RapidAPI](https://rapidapi.com/diffsense/api/diffsense-api):
+Available on [RapidAPI](https://rapidapi.com/terrycrews99/api/diffsense):
 
 | Plan | Price | Requests |
 |---|---|---|
